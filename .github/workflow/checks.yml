@@ -3,6 +3,9 @@ name: Checks
 
 on: 
   push:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - main
 
 jobs:
   test-link:
