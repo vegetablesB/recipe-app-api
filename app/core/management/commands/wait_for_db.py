@@ -14,7 +14,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         """Handle the command"""
-        self.stdout.write('Waiting for database...')
+        self.stdout.write('\nWaiting for database...')
         db_conn = False
         while not db_conn:
             try:

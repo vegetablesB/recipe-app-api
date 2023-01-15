@@ -10,7 +10,6 @@ class UserAdmin(BaseUserAdmin):
     """
     Django admin configuration for User model.
     """
-    print('UserAdmin')
     ordering = ['id']
     list_display = ['email', 'name']
     fieldsets = (
@@ -35,3 +34,4 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Recipe)
+admin.site.register(models.Tag)
