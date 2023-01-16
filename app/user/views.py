@@ -1,4 +1,4 @@
-""" 
+"""
 User views
 """
 from rest_framework import generics, authentication, permissions
