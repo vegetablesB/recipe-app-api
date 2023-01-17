@@ -1,8 +1,8 @@
 # recipe-app-api
 Recipe APP Api based on Django.
 This is a RESTful API including following functions.
-- Create, Get, Update user and token.
-- Create, Get, update recipe and upload images to recipe.
+- Create, Get, and Update users and tokens.
+- Create, Get, and Update recipes and upload images to a recipe.
 - Filter recipe based on tags and ingredients.
 
 ## Build and run in the docker
